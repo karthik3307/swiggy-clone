@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/7a239ef127.js" crossorigin="anonymous" ></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-top">
+                <div class="icon_location_search-bar">
+                    <div class="icon">
+                        <img class="image-icon" src="swiggylogo.jpg">
+                    </div>
+                    <div class="location">
+                        <i class="fa-sharp fa-solid fa-location-dot" id="location-icon"></i>
+                        <p class="location-info">Setup your precise location </p>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" class="text-bar" placeholder="Search for restaurant and food">
+                        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                    </div>
+                </div>
+                <div class="user">
+                    <i class="fa-solid fa-user" id="user-icon"></i>
+                </div>
+            </div>
+            <div class="master_header_description">
+                <div class="master_heading">
+                    <div class="master_heading_content">Order Food Online in Hyderabad</div>
+                </div>
+                <div class="master_heading_image">
+                    <img src="swiggy_header_logo.avif" class="swiggy_header_logo">
+                </div>
+            </div>
+        </header>
+        <div class="tiffin_items">
+            <div class="tiffin_items_header_bar">
+                <div class="tiffin_items_header">
+                    <p class="tiffin_items_header_content">What's on your mind&#x3f;</p>
+                </div>
+                <div class="scroll_div">
+                    <div class="left_right_arrow">
+                        <div class="left_arrow">
+                            <i class="fa-solid fa-arrow-left" id="left_arrow_icon"></i>
+                        </div>
+                        <div class="right_arrow">
+                            <i class="fa-sharp fa-solid fa-arrow-right" id="right_arrow_icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tiffin_items_container">
+                <div class="individual_tiffin_items">
+                    <div class="item">
+                        <img src="Dosa.jpg" class="item_name">
+                    </div>          
+                    <div class="item">
+                        <img src="Burger.jpg" class="item_name">
+                    </div>
+                    <div class="item">
+                        <img src="biryani.jpg" class="item_name">
+                    </div>
+                    <div class="item">
+                        <img src="Shawarma.jpg" class="item_name">
+                    </div>
+                    <div class="item">
+                        <img src="Chinese.jpg" class="item_name">
+                    </div>
+                    <div class="item">
+                        <img src="Shakes.jpg" class="item_name">
+                    </div>
+                    <div class="item">
+                        <img src="North_indian.jpg" class="item_name">
+                    </div>
+                    <div class="item" id="nothing">
+                        <img src="North_indian.jpg" class="item_name">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="restaurants_main_div">
+            <div class="restaurant_header_bar">
+                <div class="restaurant_header">
+                    <p class="restaurant_header_content">Top restaurant chains in Hyderabad</p>
+                </div>
+                <div class="scroll_div">
+                    <div class="left_right_arrow">
+                        <div class="left_arrow">
+                            <i class="fa-solid fa-arrow-left" id="left_arrow_icon"></i>
+                        </div>
+                        <div class="right_arrow">
+                            <i class="fa-sharp fa-solid fa-arrow-right" id="right_arrow_icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top_restaurant_container">
+                <div class="individual_restaurants">
+                    <div class="restaurant_image_container">
+                        <img src="restaurant_tiffins.jpg" class="restaurant_image">
+                        <div class="restaurant_image_content">
+                            <div class="restaurant_name_div">
+                                <p class="restaurant_name">The Rameshwaram Cafe</p>
+                            </div>
+                            <div class="restaurant_rating_div">
+                                <div class="rating_icon_div">
+                                    <i class="fa-regular fa-star" id="rating_icon"></i>
+                                </div>
+                                <p class="restaurant_rating">4.6 &#xB7; 30-35 mins</p>
+                            </div>
+                            <div class="food_name_div">
+                                <p class="food_name">South Indian,Snacks,..</p>    
+                            </div>
+                            <div class="restaurant_address_div">
+                                <p class="restaurant_address">Gachibowli</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant_image_container">
+                        <img src="Roast.jpg" class="restaurant_image">
+                        <div class="restaurant_image_content">
+                            <div class="restaurant_name_div">
+                                <p class="restaurant_name">Roast</p>
+                            </div>
+                            <div class="restaurant_rating_div">
+                                <div class="rating_icon_div">
+                                    <i class="fa-regular fa-star" id="rating_icon"></i>
+                                </div>
+                                <p class="restaurant_rating">3.8 &#xB7; 30-35 mins</p>
+                            </div>
+                            <div class="food_name_div">
+                                <p class="food_name">Italian,Burger,...</p>    
+                            </div>
+                            <div class="restaurant_address_div">
+                                <p class="restaurant_address">Hitech City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant_image_container">
+                        <img src="mandi_restaurant.jpeg" class="restaurant_image">
+                        <div class="restaurant_image_content">
+                            <div class="restaurant_name_div">
+                                <p class="restaurant_name">Lucky Restaurant</p>
+                            </div>
+                            <div class="restaurant_rating_div">
+                                <div class="rating_icon_div">
+                                    <i class="fa-regular fa-star" id="rating_icon"></i>
+                                </div>
+                                <p class="restaurant_rating">3.8 &#xB7; 40-45 mins</p>
+                            </div>
+                            <div class="food_name_div">
+                                <p class="food_name">Biryani,Tandoor</p>    
+                            </div>
+                            <div class="restaurant_address_div">
+                                <p class="restaurant_address">Jubilee Hills</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant_image_container">
+                        <img src="starbucks_coffee.jpg" class="restaurant_image">
+                        <div class="restaurant_image_content">
+                            <div class="restaurant_name_div">
+                                <p class="restaurant_name">Star Bucks</p>
+                            </div>
+                            <div class="restaurant_rating_div">
+                                <div class="rating_icon_div">
+                                    <i class="fa-regular fa-star" id="rating_icon"></i>
+                                </div>
+                                <p class="restaurant_rating">3.8 &#xB7; 30-35 mins</p>
+                            </div>
+                            <div class="food_name_div">
+                                <p class="food_name">Coffee,Ice Creams,Bakery,....</p>    
+                            </div>
+                            <div class="restaurant_address_div">
+                                <p class="restaurant_address">Madapur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row_gap"></div>
+        <div class="food_delivery_main_div">
+            <div class="food_delivary_header_bar">
+                <div class="food_delivary_header">
+                    <div class="food_delivary_header-content">Restaurants with online food delivery in Hyderabad</div>
+                </div>
+                <div class="food_delivery_info">
+                    <div class="food_delivery_info_bar">
+                        <div class="filter_div">
+                            <div class="filter">Filter</div>
+                        </div>
+                        <div class="sortby_div">
+                            <div class="sortby">Sort By</div>
+                        </div>
+                        <div class="fast_delivery_div">
+                            <div class="fast_delivery">Fast Delivery</div>
+                        </div>
+                        <div class="on_swiggy_div">
+                            <div class="on_swiggy">New on Swiggy</div>
+                        </div>
+                        <div class="rating_div">
+                            <div class="rating">Ratings 4.0+</div>
+                        </div>
+                        <div class="pure_veg_div">
+                            <div class="pure_veg">Pure Veg</div>
+                        </div>
+                        <div class="offers_div">
+                            <div class="offers">Offers</div>
+                        </div>
+                        <div class="rs_div">
+                            <div class="rs">Rs.300-Rs.600</div>
+                        </div>
+                        <div class="less_div">
+                            <div class="less">Less than Rs.300</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="food_delivery_item_container">
+                <div class="food_delivery_item_sub_container">
+                    <div class="food_delivery_image_container">
+                        <img src="chinese_grid.jpeg" class="food_delivery_image">
+                        <div class="food_delivery_image_content">
+                            <div class="image_row_gap"></div>
+                            <div class="food_delivery_restaurant_name_div">
+                                <p class="food_delivery_restaurant_name">Chinese Wok</p>
+                            </div>
+                            <div class="food_delivery_rating_div">
+                                <div class="food_delivery_icon_div">
+                                    <i class="fa-regular fa-star" id="food_rating_icon"></i>
+                                </div>
+                                <p class="food_delivery_rating">3.7 &#xB7; 70-75 mins</p>
+                            </div>
+                            <div class="food_delivery_item_name_div">
+                                <p class="food_delivery_item_name">Chinese,Asian,Tibetian,Dasserts</p>    
+                            </div>
+                            <div class="food_delivery_restaurant_address_div">
+                                <p class="food_delivery_restaurant_address">Gachibowli</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food_delivery_image_container">
+                        <img src="barbequee_grid.jpeg" class="food_delivery_image">
+                        <div class="food_delivery_image_content">
+                            <div class="image_row_gap"></div>
+                            <div class="food_delivery_restaurant_name_div">
+                                <p class="food_delivery_restaurant_name">Barbeque Nation</p>
+                            </div>
+                            <div class="food_delivery_rating_div">
+                                <div class="food_delivery_icon_div">
+                                    <i class="fa-regular fa-star" id="food_rating_icon"></i>
+                                </div>
+                                <p class="food_delivery_rating">3.3 &#xB7; 60-65 mins</p>
+                            </div>
+                            <div class="food_delivery_item_name_div">
+                                <p class="food_delivery_item_name">North Indian,Barbecue,Biryani,Kebabs,.....</p>    
+                            </div>
+                            <div class="food_delivery_restaurant_address_div">
+                                <p class="food_delivery_restaurant_address">Jubilee Hills</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food_delivery_image_container">
+                        <img src="biryani_grid.jpeg" class="food_delivery_image">
+                        <div class="food_delivery_image_content">
+                            <div class="image_row_gap"></div>
+                            <div class="food_delivery_restaurant_name_div">
+                                <p class="food_delivery_restaurant_name">Behrouz Biryani</p>
+                            </div>
+                            <div class="food_delivery_rating_div">
+                                <div class="food_delivery_icon_div">
+                                    <i class="fa-regular fa-star" id="food_rating_icon"></i>
+                                </div>
+                                <p class="food_delivery_rating">3.7 &#xB7; 40-55 mins</p>
+                            </div>
+                            <div class="food_delivery_item_name_div">
+                                <p class="food_delivery_item_name">Biryani,Kebabs,Mughlai,Lucknowi,...</p>    
+                            </div>
+                            <div class="food_delivery_restaurant_address_div">
+                                <p class="food_delivery_restaurant_address">Hitech City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food_delivery_image_container">
+                        <img src="chat_grid.jpeg" class="food_delivery_image">
+                        <div class="food_delivery_image_content">
+                            <div class="image_row_gap"></div>
+                            <div class="food_delivery_restaurant_name_div">
+                                <p class="food_delivery_restaurant_name">Gokul Chat</p>
+                            </div>
+                            <div class="food_delivery_rating_div">
+                                <div class="food_delivery_icon_div">
+                                    <i class="fa-regular fa-star" id="food_rating_icon"></i>
+                                </div>
+                                <p class="food_delivery_rating">4.0 &#xB7; 30-35 mins</p>
+                            </div>
+                            <div class="food_delivery_item_name_div">
+                                <p class="food_delivery_item_name">Cafe,Chat,...</p>    
+                            </div>
+                            <div class="food_delivery_restaurant_address_div">
+                                <p class="food_delivery_restaurant_address">Dilsukhnagar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food_delivery_image_container">
+                        <img src="pizza_grid.jpeg" class="food_delivery_image">
+                        <div class="food_delivery_image_content">
+                            <div class="image_row_gap"></div>
+                            <div class="food_delivery_restaurant_name_div">
+                                <p class="food_delivery_restaurant_name">Domino's Pizzas</p>
+                            </div>
+                            <div class="food_delivery_rating_div">
+                                <div class="food_delivery_icon_div">
+                                    <i class="fa-regular fa-star" id="food_rating_icon"></i>
+                                </div>
+                                <p class="food_delivery_rating">4.1 &#xB7; 35-45 mins</p>
+                            </div>
+                            <div class="food_delivery_item_name_div">
+                                <p class="food_delivery_item_name">Pizzas,Pastas,Italian,.....</p>    
+                            </div>
+                            <div class="food_delivery_restaurant_address_div">
+                                <p class="food_delivery_restaurant_address">Film Nagar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food_delivery_image_container">
+                        <img src="dabha_grid.jpeg" class="food_delivery_image">
+                        <div class="food_delivery_image_content">
+                            <div class="image_row_gap"></div>
+                            <div class="food_delivery_restaurant_name_div">
+                                <p class="food_delivery_restaurant_name">Chandigarh Dhaba</p>
+                            </div>
+                            <div class="food_delivery_rating_div">
+                                <div class="food_delivery_icon_div">
+                                    <i class="fa-regular fa-star" id="food_rating_icon"></i>
+                                </div>
+                                <p class="food_delivery_rating">4.1 &#xB7; 45-55 mins</p>
+                            </div>
+                            <div class="food_delivery_item_name_div">
+                                <p class="food_delivery_item_name">North Indian,Chinese,Mughlai,....</p>    
+                            </div>
+                            <div class="food_delivery_restaurant_address_div">
+                                <p class="food_delivery_restaurant_address">Kondapur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food_delivery_image_container">
+                        <img src="pista_grid.jpeg" class="food_delivery_image">
+                        <div class="food_delivery_image_content">
+                            <div class="image_row_gap"></div>
+                            <div class="food_delivery_restaurant_name_div">
+                                <p class="food_delivery_restaurant_name">Shah Haleem</p>
+                            </div>
+                            <div class="food_delivery_rating_div">
+                                <div class="food_delivery_icon_div">
+                                    <i class="fa-regular fa-star" id="food_rating_icon"></i>
+                                </div>
+                                <p class="food_delivery_rating">4.2 &#xB7; 20-30 mins</p>
+                            </div>
+                            <div class="food_delivery_item_name_div">
+                                <p class="food_delivery_item_name">Chinese,Biryani,Mughlai,...</p>    
+                            </div>
+                            <div class="food_delivery_restaurant_address_div">
+                                <p class="food_delivery_restaurant_address">Malkam cheruvu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food_delivery_image_container">
+                        <img src="momo_grid.jpeg" class="food_delivery_image">
+                        <div class="food_delivery_image_content">
+                            <div class="image_row_gap"></div>
+                            <div class="food_delivery_restaurant_name_div">
+                                <p class="food_delivery_restaurant_name">Wow!Momo</p>
+                            </div>
+                            <div class="food_delivery_rating_div">
+                                <div class="food_delivery_icon_div">
+                                    <i class="fa-regular fa-star" id="food_rating_icon"></i>
+                                </div>
+                                <p class="food_delivery_rating">4.2 &#xB7; 60-65 mins</p>
+                            </div>
+                            <div class="food_delivery_item_name_div">
+                                <p class="food_delivery_item_name">Tibetian,Healthy Food,Asian,Chinese,....</p>    
+                            </div>
+                            <div class="food_delivery_restaurant_address_div">
+                                <p class="food_delivery_restaurant_address">Jubilee Hills</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row_gap"></div>
+        <div class="main_locality_div">
+            <div class="sub_locality_div">
+                <div class="locality_header_bar">
+                    <div class="locality_header_content">Explore localities in and around Hyderabad</div>
+                </div>
+                <div class="locality_main_container">
+                    <div class="locality_sub_container">
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Mehdapur</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Anantaram</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Bits</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Kodchera</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Yadgarpalli</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Korremal</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Pratapsingaram</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Pochampally</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">CMR College</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Porur</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Aliabad</div>
+                        </div>
+                    </div>
+                    <div class="showmore_gap"></div>
+                    <div class="showmore_main_div">
+                        <div class="showmore_sub_div">
+                            <div class="showmore_name">Show More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row_gap"></div>
+        <div class="main_locality_div">
+            <div class="sub_locality_div">
+                <div class="locality_header_bar">
+                    <div class="locality_header_content">Restaurant Chains in Hyderabad</div>
+                </div>
+                <div class="locality_main_container">
+                    <div class="locality_sub_container">
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Chai Tales</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">AI Madina Chicken Haleem</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Lucky multicuisine Restaurant</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Pakka Local</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">The Sandwich story</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Sri Raghavendra Tiffins</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Louis Burger</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Chung Hua Restaurant</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Bubble Tea Cafe</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Biryaari</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Puliyogare Palace</div>
+                        </div>
+                    </div>
+                    <div class="showmore_gap"></div>
+                    <div class="showmore_main_div">
+                        <div class="showmore_sub_div">
+                            <div class="showmore_name">Show More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row_gap"></div>
+        <div class="main_locality_div">
+            <div class="sub_locality_div">
+                <div class="locality_header_bar">
+                    <div class="locality_header_content">Popular Dishes in Hyderabad</div>
+                </div>
+                <div class="locality_main_container">
+                    <div class="locality_sub_container">
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Chole Bhature</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Wraps</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Chicken Handi</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Dal</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">English Breakfast</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Gobi</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Hummus</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Chicken Manchurian</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Chicken Shawarma Roll</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Pulka</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Fruit Salads</div>
+                        </div>
+                    </div>
+                    <div class="showmore_gap"></div>
+                    <div class="showmore_main_div">
+                        <div class="showmore_sub_div">
+                            <div class="showmore_name">Show More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row_gap"></div>
+        <div class="main_locality_div">
+            <div class="sub_locality_div">
+                <div class="locality_header_bar">
+                    <div class="locality_header_content">More Food Options Near Me</div>
+                </div>
+                <div class="locality_main_container">
+                    <div class="locality_sub_container">
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Afghani food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">African food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">American food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Andra food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Arabian food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Asian food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Awadhi food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Bakery food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Barbecue food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Bengali food near me</div>
+                        </div>
+                        <div class="locality_individual_container">
+                            <div class="locality_area_content">Beverages food near me</div>
+                        </div>
+                    </div>
+                    <div class="showmore_gap"></div>
+                    <div class="showmore_main_div">
+                        <div class="showmore_sub_div">
+                            <div class="showmore_name">Show More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_gap"></div>
+        <div class="download_main_div">
+            <div class="download_content_div">
+                <p class="download_content">For better experience,download the Swiggy app now</p>
+            </div>
+            <div class="download_img_div">
+                <img class="play_store" src="play_store.png">
+                <img class="app_store" src="app_store.png">
+            </div>
+        </div>
+        <footer>
+            <div class="main_footer_div">
+                <div class="footer_individual_content">
+                    <div class="footer_content_div_first">
+                        <div class="top_header">Swiggy</div>
+                        <div class="top_normal_text"><div class="sc-beySbM gAixmN">© 2024 Bundl Technologies Pvt. Ltd</div></div>
+                    </div>
+                </div>
+                <div class="footer_individual_content">
+                    <div class="footer_content_div_second">
+                        <ul>
+                            <li>
+                                <div class="header">Company</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">About</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Careers</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Team</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Swiggy One</div>
+                            </li>
+                            <!--<li>
+                                <div class="normal_text">Swiggy Instamart</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Swiggy Genie</div>
+                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_individual_content">
+                    <div class="footer_content_div_third">
+                        <div class="footer_content_div1">
+                            <ul>
+                                <li>
+                                    <div class="header">Contact us</div>
+                                </li>
+                                <li>
+                                    <div class="normal_text">Help & Support</div>
+                                </li>
+                                <li>
+                                    <div class="normal_text">Partner with us</div>
+                                </li>
+                                <li>
+                                    <div class="normal_text">Ride with us</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_content_div1">
+                            <ul>
+                                <li>
+                                    <div class="header">Legal</div>
+                                </li>
+                                <li>
+                                    <div class="normal_text">Terms & Conditions</div>
+                                </li>
+                                <li>
+                                    <div class="normal_text">Cookie Policy</div>
+                                </li>
+                                <li>
+                                    <div class="normal_text">Privacy Policy</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_individual_content">
+                    <div class="footer_content_div_fourth">
+                        <ul>
+                            <li>
+                                <div class="header">We deliver to:</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Bangalore</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Gurgoan</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Hyderabad</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Delhi</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Mumbai</div>
+                            </li>
+                            <li>
+                                <div class="normal_text">Pune</div>
+                            </li>
+                            <li>
+                                <button>
+                                    <div class="button_content">589 cities</div>
+                                    <div class="button_drop">
+                                        <i class="fa-solid fa-caret-down" id="dropdown"></i>
+                                    </div>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
